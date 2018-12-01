@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "258309310913",
+    "firebase_url": "https://fir-cam-cb2cb.firebaseio.com",
+    "project_id": "fir-cam-cb2cb",
+    "storage_bucket": "fir-cam-cb2cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258309310913:android:bfbbd0ec342bd869",
+        "android_client_info": {
+          "package_name": "com.firebasecam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258309310913-ie0tgttq7shcif6bk7jks8clb74905i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNYFcSkPEyvzzAyVV1BWMWKtcvMiGe3yI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
