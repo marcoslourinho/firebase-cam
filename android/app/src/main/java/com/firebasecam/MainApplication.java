@@ -6,13 +6,13 @@ import com.facebook.react.ReactApplication;
 import com.oblador.vectoricons.VectorIconsPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import org.reactnative.camera.RNCameraPackage;
-import io.invertase.firebase.storage.RNFirebaseStoragePackage; // <-- storage
+import io.invertase.firebase.storage.RNFirebaseStoragePackage; // incluir referencia do FirebaseStorage
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 
-import java.util.Arrays;
+import java.util.Arrays;j
 import java.util.List;
 
 public class MainApplication extends Application implements ReactApplication {
@@ -30,7 +30,7 @@ public class MainApplication extends Application implements ReactApplication {
             new VectorIconsPackage(),
             new RNFirebasePackage(),
             new RNCameraPackage(),
-            new RNFirebaseStoragePackage() // <-- Add this line
+            new RNFirebaseStoragePackage() // incluir new FirebaseStorage
       );
     }
 
