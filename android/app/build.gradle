@@ -143,8 +143,8 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation "com.google.firebase:firebase-core:16.0.4"
-    implementation "com.google.firebase:firebase-storage:16.0.4"
+    implementation "com.google.firebase:firebase-core:16.0.4" //incluir dependencia do firebase-core
+    implementation "com.google.firebase:firebase-storage:16.0.4" //incluir dependencia firebase-storage
 }
 
 // Run this once to be able to run the application with BUCK
@@ -154,4 +154,4 @@ task copyDownloadableDepsToLibs(type: Copy) {
     into 'libs'
 }
 
-apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.gms.google-services' //realizar um apply do google-services
